@@ -7,7 +7,7 @@
     position:relative;
 }
 #logo{
-    margin-top: 8%;
+    padding-top: 7%;
     size: 0.9cm;
 }
 
@@ -48,6 +48,11 @@ h3{
     text-align: center;
     color:white;
     padding-top: 7%;
+}
+.p3{
+    font-size:13px;
+    color:white;
+    text-align:center;
 }
 
 
