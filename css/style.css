@@ -6,6 +6,10 @@
     background-size: cover;
     position:relative;
 }
+#logo{
+    margin-top: 5%;
+}
+
 .h1{
     align-content: center;
     color:white;
