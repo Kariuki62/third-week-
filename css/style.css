@@ -7,17 +7,23 @@
     position:relative;
 }
 #logo{
-    margin-top: 5%;
+    margin-top: 8%;
+    size: 0.9cm;
 }
 
 .h1{
     align-content: center;
     color:white;
-    margin-top: 5%;
+    margin-top: 4%;
+   
+
 }
 .p1{
     align-content:bottom;
     color:white;
     font-size:15px;
-    
+
+}
+#mouse{
+    margin-top: 10.4%;
 }
