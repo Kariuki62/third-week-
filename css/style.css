@@ -34,3 +34,20 @@
 .p2{
     font-size:13px;
 }
+.bucks{
+    background-image: url('../assets/backgrounds/s_image.jpg');
+    width: 100%;
+    height:300px;
+    background-size: cover;
+    position:relative;
+    margin-top: 5%;
+
+}
+
+h3{
+    text-align: center;
+    color:white;
+    padding-top: 7%;
+}
+
+
