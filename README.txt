@@ -1,26 +1,39 @@
-Material Design for Bootstrap
+# Delani Studio
 
-Version: MDB Free 4.8.0
+#### Shows a complete rebuild of the Delani Studio.
 
-Documentation:
-https://mdbootstrap.com/
+#### By **Kelvin Kariuki**
 
-Getting started:
-https://mdbootstrap.com/docs/jquery/getting-started/download/
+## Description
 
-Tutorials:
-MDB-Bootstrap: https://mdbootstrap.com/education/bootstrap/
-MDB-Wordpress: https://mdbootstrap.com/education/wordpress/
+ Shows how bootstrap and JQUERY work on a site.
+ 
+## Setup/Installation Requirements
 
-Templates:
-https://mdbootstrap.com/templates/
+* Google Chrome 
+* Internet Connection
+*You can enjoy the code.
 
-License:
-https://mdbootstrap.com/general/license/
+##BDD
 
-Support:
-https://mdbootstrap.com/forums/forum/support/
+ Behavior of the Delani Studio                |  input                  | output              |      
+|---------------------------------------------|-------------------------|---------------------|
+| Hover on what we do and expect a reply      | click on the icons      |Receive info on icon |
+| Hover on Portfolio                          | click on the portfolio  |Receive info on ptf. |
+| Enter text on the input boxes               | Key in your details     |Thankyou  alert      |
+| Social links                                |click on the social links|Redirect to SM sites |
 
-Contact:
-office@mdbootstrap.com
+## Known Bugs
 
+There are no known bugs 
+## Technologies Used
+*HTML
+*CSS
+*JScript
+*JQUERY
+*Bootstrap.
+## Support and contact details
+kariukiwan62@gmail.com,+254728275588.
+link to license 
+
+Copyright (c) 2019 There aren't any contributors as of now.
