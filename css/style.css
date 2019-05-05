@@ -59,6 +59,7 @@ h4{
 }
 .table{
      margin-top: 1.5%;
+     justify-content: center;
 }
 #design{
      display: block;
@@ -93,3 +94,35 @@ h4{
     font-size:12px;
     padding-right:25px;
 }
+#work1{
+    width: 200px;
+
+}
+.great{
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: center;
+
+}
+#work2{
+    width: 200px;
+}
+#work3{
+    width: 200px;
+}
+#work4{
+    width: 200px;
+}
+#work5{
+    width: 200px;
+}
+#work6{
+    width: 200px;
+}
+#work7{
+    width: 200px;
+}
+#work8{
+    width: 200px;
+}
+
