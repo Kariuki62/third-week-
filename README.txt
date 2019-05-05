@@ -35,5 +35,6 @@ There are no known bugs
 ## Support and contact details
 kariukiwan62@gmail.com,+254728275588.
 link to license 
+https://github.com/Kariuki62/third-week-/blob/master/LICENSE
 
 Copyright (c) 2019 There aren't any contributors as of now.
