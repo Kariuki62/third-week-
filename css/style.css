@@ -60,12 +60,14 @@ h4{
 .table{
      margin-top: 1.5%;
      justify-content: center;
+     
 }
 #design{
      display: block;
      margin-right: 350px;
      padding-left:120px;
      width:190px;
+     cursor: pointer;
 
 }
 #dev{
@@ -124,5 +126,66 @@ h4{
 }
 #work8{
     width: 200px;
+}
+.ghost{
+    background-image: url('../assets/backgrounds/c_image.jpg');
+    width: 100%;
+    height:500px;
+    background-size: cover;
+    position:relative;
+    margin-top: 5%;
+}
+h4{
+    color:none;
+    padding-top:3%;
+}
+.form{
+    flex-direction: row;
+}
+input{
+    background-color: none;
+    width: 400px;
+    margin-top:3%;
+    margin-bottom: 3%;
+    background: transparent;
+    color:white; 
+    display: inline-block;
+    justify-items: center;
+}
+::-webkit-input-placeholder{
+    color:white;
+}
+textarea{
+    width: 1000px;
+    height: 250px;
+    background: transparent;
+    
+}
+#name{
+    margin-left:10%;
+}
+#email{
+    margin-left:10%;
+}
+#textarea{
+    margin-left:10%;
+}
+.final{
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5%;
+    cursor: pointer;
+}
+.p4{
+    text-align: center;
+    font-size:14px;
+    margin-top:3%;
+
+}
+.p5{
+    text-align: center;
+    font-size:12px;
+    margin-bottom: 2%;
 }
 
