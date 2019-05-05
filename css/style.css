@@ -16,7 +16,6 @@
     color:white;
     margin-top: 4%;
    
-
 }
 .p1{
     align-content:bottom;
@@ -58,5 +57,39 @@ h4{
     text-align:center;
     margin-top:2%;
 }
+.table{
+     margin-top: 1.5%;
+}
+#design{
+     display: block;
+     margin-right: 350px;
+     padding-left:120px;
+     width:190px;
 
+}
+#dev{
+     display: block;
+     margin-right: 400px;
+     padding-left:35px;
+     width:100px;
 
+}
+#product{
+      display: block;
+      size:1cm;
+      width:60px;
+      margin-left:44px;
+
+}
+#p1{
+   padding-left:130px;
+   font-size:12px;
+}
+#p2{
+    padding-left:26px;
+    font-size:12px;
+}
+#p3{
+    font-size:12px;
+    padding-right:25px;
+}
