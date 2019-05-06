@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>Delani Studio</title>
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/mdb.min.css">
   <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -39,10 +40,45 @@
 <div class="table">
   <table>
   <tr>
-    <td><img src="assets/services_icons/design_icon.png" alt="" id="design"><p id="p1"><strong>DESIGN</strong></p></td>
-    <td><img src="assets/services_icons/dev_icon.png" alt="" id="dev"><p id="p2"><strong>DEVELOPMENT</strong> </p></td>
-    <td><img src="assets/services_icons/product_icon.png" alt="" id="product"><p id="p3"><strong>PRODUCT MANAGEMENT</strong></p></td>
-    
+    <td class="me">
+
+      <img src="assets/services_icons/design_icon.png" alt="" id="design">
+      <p id="p1"><strong>DESIGN</strong></p>
+    <div class="hidden">
+      <div class="showing">
+        <p id="hocus2">  
+            Our design practice offers a full range of services including brand <br>strategy, interaction and visual design and user experience testing.<br>
+            Throughout your project, our designers<br> create and implement visual design and workflows,solicit user<br>
+            feedback and work with you to make sure what gets built<br>
+            is what is needed.
+          </p>
+    </div>
+  </div>
+  </td>
+    <td class="me">
+      <img src="assets/services_icons/dev_icon.png" alt="" id="dev">
+      <p id="p2"><strong>DEVELOPMENT</strong> </p>
+    <div class="hidden">
+     <div class="showing">
+      <p id="hocus"> All engineers are fluent in the latest enterprise,mobile and web development technologies<br>
+        They collaborate with your team to write <br>and improve code on a daily basis,<br> using proven practices such as test-driven development and pair programming.
+        </p>
+     </div>
+    </div>
+  </td>
+    <td class="me">
+      <img src="assets/services_icons/product_icon.png" alt="" id="product">
+      <p id="p3"><strong>PRODUCT MANAGEMENT</strong></p>
+      <div id="clone">
+    <div class="hidden">
+      <div class="showing"> 
+      <p id="hocus3">
+          Our design practice offers a full range of services including brand stategy,interaction and visual design and user experience testing
+      </p>
+    </div>
+  </div>
+</div>
+  </td>
   </tr>
 </table>
 </div>
@@ -50,22 +86,38 @@
  <div class="great">
     <table>
       <tr>
-        <td><img src="assets/portfolio/work4.jpg" alt="" id="work4"></td>
-        <td> <img src="assets/portfolio/work3.jpg" alt="" id="work3"></td>
-        <td><img src="assets/portfolio/work2.jpg" alt="" id="work2"></td>
-        <td><img src="assets/portfolio/work1.jpg" alt="" id="work1"></td>
+        <td id="worka">
+          <img src="assets/portfolio/work4.jpg" alt="" id="work4" >
+        </td>
+        <td id="workb"> 
+          <img src="assets/portfolio/work3.jpg" alt="" id="work3">
+        </td>
+        <td id="workc">
+          <img src="assets/portfolio/work2.jpg" alt="" id="work2">
+        </td>
+        <td id="workd">
+          <img src="assets/portfolio/work1.jpg" alt="" id="work1">
+        </td>
       </tr>
       <tr>
-        <td><img src="assets/portfolio/work5.jpg" alt="" id="work5"></td>
-        <td><img src="assets/portfolio/work6.jpg" alt=""id="work6"></td>
-        <td><img src="assets/portfolio/work7.jpg" alt=""id="work7"></td>
-        <td><img src="assets/portfolio/work8.jpg" alt=""id="work8"></td>
+        <td id="worke">
+          <img src="assets/portfolio/work5.jpg" alt="" id="work5">
+        </td>
+        <td id="workf">
+          <img src="assets/portfolio/work6.jpg" alt=""id="work6">
+        </td>
+        <td id="workg">
+          <img src="assets/portfolio/work7.jpg" alt=""id="work7">
+        </td>
+        <td id="workh">
+          <img src="assets/portfolio/work8.jpg" alt=""id="work8">
+        </td>
       </tr>
     </table>
   </div>
 
   <div class="ghost">
-   <h4>CONTACT US</h4>
+   <h5>CONTACT US</h5>
    <form>
      <input type="text" placeholder="Name..." id="name"> 
       <input type="email" placeholder="Email..."id="email"> 
@@ -94,5 +146,8 @@
     </div>
     <p class="p4">DELANI STUDIO</p>
     <p class="p5">2019</p>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
  </body>
  </html>
