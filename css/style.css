@@ -62,6 +62,26 @@ h4{
      justify-content: center;
      
 }
+.hidden{
+    text-align:center;
+    font-size: 12px;
+}
+
+#hocus{
+    font-size:12px;
+    padding-right: 370px;
+    display: none;
+}
+#hocus2{
+    font-size:12px;
+    padding-right: 250px;
+    display:none;
+}
+#hocus3{
+    font-size:12px;
+    display:none;
+    padding-right: 80px;
+}
 #design{
      display: block;
      margin-right: 350px;
@@ -70,11 +90,13 @@ h4{
      cursor: pointer;
 
 }
+
 #dev{
-     display: block;
+     display: flex;
      margin-right: 400px;
      padding-left:35px;
      width:100px;
+     cursor: pointer;
 
 }
 #product{
@@ -82,6 +104,7 @@ h4{
       size:1cm;
       width:60px;
       margin-left:44px;
+      cursor: pointer;
 
 }
 #p1{
@@ -105,6 +128,9 @@ h4{
     display: flex;
     justify-content: center;
 
+}
+td{
+    padding:13px;
 }
 #work2{
     width: 200px;
@@ -138,6 +164,12 @@ h4{
 h4{
     color:none;
     padding-top:3%;
+}
+h5{
+    color:white;
+    padding-top:3%;
+    font-size:30px;
+    text-align:center;
 }
 .form{
     flex-direction: row;
