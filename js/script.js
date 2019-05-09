@@ -52,5 +52,10 @@ $(document).ready(function(){
       }, function(){
       $(this).css("background-color", "white");
      });
+     $('.button').click(function(){
+        var me = $('#name').val();
+        
+        alert(name + " Your message has been received. Thank you for reaching out to us");
+    })
  });
  
