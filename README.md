@@ -14,7 +14,7 @@
 * Internet Connection
 *You can enjoy the code.
 
-##BDD
+## BDD
 
  Behavior of the Delani Studio                |  input                  | output              |      
 |---------------------------------------------|-------------------------|---------------------|
